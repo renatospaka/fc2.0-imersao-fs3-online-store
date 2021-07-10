@@ -1,0 +1,1 @@
+Loja online fake apenas para consumir serviços bancários via gRPC
