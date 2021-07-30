@@ -4,9 +4,11 @@ services:
   app:
     build: .
     entrypoint: .docker/entrypoint.sh
-    container_name: appstore
+    container_name: storeonline
     ports:
       - 3001:3000
     volumes:
       - .:/home/node/app
-#1:38:35
+    extra_hosts: 
+      - 'host.docker.internal: 172.17.0.1'
+# 10:35

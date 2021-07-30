@@ -33,4 +33,7 @@ yarn-error.log*
 # vercel
 .vercel
 
+.history/
+.env
+
 _command
