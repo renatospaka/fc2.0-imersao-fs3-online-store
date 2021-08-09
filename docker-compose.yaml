@@ -10,5 +10,4 @@ services:
     volumes:
       - .:/home/node/app
     extra_hosts: 
-      - 'host.docker.internal: 172.17.0.1'
-# 10:35
+      - 'host.docker.internal:172.17.0.1'
